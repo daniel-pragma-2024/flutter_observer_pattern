@@ -1,4 +1,5 @@
 name: flutter_observer_pattern
 
 packages:
+  - observer
   
