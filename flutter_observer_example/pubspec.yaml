@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  observer:
+    path: ../observer
+  flutter_colorpicker: ^1.1.0
 
 dev_dependencies:
   flutter_test:
