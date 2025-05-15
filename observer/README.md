@@ -8,22 +8,17 @@
   <br>
 </h1>
 
-<h4 align="center">Patrón de diseño Observer, implementación y ejemplo en Flutter</h4>
+<h4 align="center">Patrón de diseño Observer en Dart</h4>
 
 <p align="center">
-  <a href="https://docs.flutter.dev/">
-    <img src="https://img.shields.io/badge/Flutter-v3.27.4-0488D7?style=flat&logo=Flutter" alt="Flutter" />
-  </a>
   <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-v3.6.2-1C2834?style=flat&logo=dart" alt="Dart" /></a>
 </p>
-Este proyecto hace parte del artefacto asociado a los deseables en el uso del patrón de diseño Observer, según el caso de uso. Debemos tener en cuenta un buen análisis para la implementación de este tipo de soluciones y evitar caer en la sobreingeniería. Para ejemplificar la implementación de este patrón, hemos optado por un escenario relacionado con la selección de colores en una interfaz gráfica. En este caso, al cambiar el color seleccionado, varios componentes que actúan como observadores reaccionan automáticamente para actualizar su estado visual en pantalla.
-<p></p>
 
-Además, utilizamos Melos para manejar tanto el paquete como la aplicación de ejemplo en un monorepositorio, lo que nos permite gestionar de manera eficiente los múltiples proyectos dentro de este monorepo, facilitando la gestión de dependencias y la ejecución de los mismos de forma coherente y organizada.
+Este proyecto hace parte del artefacto asociado a los deseables en el uso del patrón de diseño Observer, según el caso de uso. Debemos tener en cuenta un buen análisis para la implementación de este tipo de soluciones y evitar caer en la sobreingeniería.
 
 A continuación se comparte el diagrama de clases del proyecto, enfocado en la implementación del patrón de diseño.
 <p style="text-align: center;">
-  <img src="readme_assets/flutter_class_diagram_observer.png" alt="Diagrama de clases del patrón Observer" width="600" height="auto" />
+  <img src="../readme_assets/class_diagram_observer.png" alt="Diagrama de clases del patrón Observer" width="600" height="auto" />
 </p>
 
 
@@ -39,14 +34,12 @@ A continuación se comparte el diagrama de clases del proyecto, enfocado en la i
 
 ## Topicos
 
-* Flutter
 * Dart
-* Melos
 * Observer Pattern
 
 ## Instalación y ejecución
 
-Para clonar y ejecutar está aplicación, necesitas [Git](https://git-scm.com) y [Flutter SDK](https://docs.flutter.dev/get-started/install) instalados en tu equipo, ademas de tener instalada la herramienta [Melos](https://melos.invertase.dev/getting-started) para el manejo del monorepo. Una vez clonado el repositorio, es recomendable ejecutar el comando `melos bootstrap`, comando el cual obtendra las dependencias de los proyectos del monorepo, una vez obtenidas las dependencias necesarias del proyecto mendiante el anterior comando. Podemos navegar al paquete en dart donde se implemento el patron, o compilar el proyecto de ejemplo ya sea en el navegador, emulador, simulador o dispositivo físico.
+Para clonar y ejecutar está aplicación, necesitas [Git](https://git-scm.com) y [Dart SDK](https://dart.dev/get-dart) (normalmente instalado junto con [Flutter SDK](https://docs.flutter.dev/get-started/install)) instalados en tu equipo. Una vez clonado el repositorio, tu IDE te recomendará hacer `dart pub get`, una vez obtenidas las dependencias necesarias del proyecto mendiante el anterior comando sera posible ejecutar el example en la terminal usando el comando `dart run example/observer_pattern_example.dart`.
 
 
 ## Consideraciones
@@ -81,7 +74,6 @@ Para tomar una decisión informada sobre el uso del patrón de diseño Observer,
 
 
 ## Tecnologías
--   [Flutter](https://flutter.dev/)
 -   [Dart](https://dart.dev/)
 
 
